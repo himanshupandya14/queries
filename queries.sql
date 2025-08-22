@@ -18,10 +18,11 @@ CREATE TABLE students (
 INSERT INTO students (name, course, marks) VALUES
 ('Himanshu Pandya', 'Data Science', 92),
 ('Raj Patel', 'AI & ML', 85),
-('Kavya Shah', 'Web Development', 88);
+('Rajesh Dave', 'Web Development', 88);
 
 -- Select all data
 SELECT * FROM students;
 
 -- Find top student
 SELECT name, marks FROM students ORDER BY marks DESC LIMIT 1;
+
